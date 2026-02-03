@@ -6,7 +6,7 @@ import ScrollReveal from "../ScrollReveal";
 export default function BlogGrid() {
     return (
         <section className="w-full py-16 px-6 md:px-8 lg:px-24 bg-lilac-beige">
-            <div className="max-w-[1920px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 md:gap-x-12 gap-y-20">
+            <div className="max-w-[1920px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-8 md:gap-x-12 gap-y-20">
                 {blogPosts.map((post, index) => (
                     <ScrollReveal key={post.id} delay={index * 0.1} width="100%">
                         <div className="flex flex-col gap-6 group">
