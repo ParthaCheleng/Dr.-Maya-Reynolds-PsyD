@@ -12,15 +12,15 @@ export default function FAQSection() {
     const faqs = [
         {
             question: "Do you take insurance?",
-            answer: "Answer goes here."
+            answer: "I am an out-of-network provider. I can provide documentation for clients who wish to seek reimbursement through their insurance plans."
         },
         {
             question: "What are your rates?",
-            answer: "Answer goes here."
+            answer: "Session fees vary depending on the type of service. Please contact me directly for current rates and availability."
         },
         {
             question: "Do you have any openings?",
-            answer: "Answer goes here."
+            answer: "Availability changes periodically. The best way to find out is to reach out directly through the contact form."
         }
     ];
 
@@ -37,10 +37,11 @@ export default function FAQSection() {
                     <ScrollReveal width="100%">
                         <div className="relative w-[400px] h-[550px] md:w-[650px] md:h-[850px] rounded-t-full overflow-hidden">
                             <Image
-                                src="/myxa.webp"
+                                src="/faq.jpg"
                                 alt="FAQ Image"
                                 fill
                                 className="object-cover"
+                                style={{ objectPosition: "50% 35%" }}
                             />
                         </div>
                     </ScrollReveal>

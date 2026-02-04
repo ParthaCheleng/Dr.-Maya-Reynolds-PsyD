@@ -23,8 +23,8 @@ export default function OfficeMap() {
                 <div className="space-y-8">
                     <ScrollReveal delay={0.2}>
                         <div>
-                            <p className="text-lg md:text-xl font-sans mb-1">123 Example Street</p>
-                            <p className="text-lg md:text-xl font-sans">Minneapolis, MN</p>
+                            <p className="text-lg md:text-xl font-sans mb-1">123th Street 45 W</p>
+                            <p className="text-lg md:text-xl font-sans">Santa Monica, CA 90401</p>
                         </div>
                     </ScrollReveal>
 

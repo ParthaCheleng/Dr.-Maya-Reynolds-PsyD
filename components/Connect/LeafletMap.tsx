@@ -27,8 +27,8 @@ export default function LeafletMap() {
         });
     }, []);
 
-    // Minneapolis coordinates
-    const position: [number, number] = [44.9778, -93.2650];
+    // Santa Monica coordinates
+    const position: [number, number] = [34.0195, -118.4912];
 
     // Remove manual cleanup to allow MapContainer to manage lifecycle
 
@@ -49,7 +49,7 @@ export default function LeafletMap() {
             />
             <Marker position={position}>
                 <Popup>
-                    My Office<br /> 123 Example Street
+                    My Office<br /> 123th Street 45 W
                 </Popup>
             </Marker>
             <style jsx global>{`

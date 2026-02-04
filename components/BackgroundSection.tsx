@@ -12,17 +12,17 @@ export default function BackgroundSection() {
         {
             title: "Education",
             content:
-                "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.",
+                "Doctor of Psychology (PsyD) in Clinical Psychology.",
         },
         {
             title: "Licensure",
             content:
-                "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.",
+                "Licensed Clinical Psychologist — State of California.",
         },
         {
             title: "Certifications",
             content:
-                "Euphorbia dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea.",
+                "Training in CBT, EMDR, trauma-informed care, mindfulness-based approaches, and body-oriented therapeutic techniques.",
         },
     ];
 

@@ -11,7 +11,9 @@ export default function BookingSection() {
 
             <ScrollReveal delay={0.2}>
                 <p className="max-w-[60rem] text-xl md:text-2xl text-lilac-green font-sans leading-relaxed mb-48 text-left self-center w-full">
-                    Add some text here if you like, and add your scheduling widget below (you can get one by signing up for a scheduling account through Squarespace, the top-tier plan is HIPAA compliant OR you can use your client portal).
+                    If you’re ready to schedule, you can request an initial consultation using the secure scheduling system below or through my client portal.
+                    <br />
+                    Appointments are available in person at my Santa Monica office and via secure telehealth for clients located in California.
                 </p>
             </ScrollReveal>
 
@@ -23,9 +25,14 @@ export default function BookingSection() {
                     <p className="text-xs md:text-sm text-gray-500 max-w-xs text-center leading-relaxed">
                         If you're the owner, please log into your account to start a free trial or subscribe.
                     </p>
-                    <button className="bg-black text-white px-6 py-3 text-[10px] tracking-[0.2em] font-bold uppercase mt-2 hover:opacity-80 transition-opacity">
+                    <a
+                        href="https://login.squarespace.com/api/1/login/oauth/provider/authorize?client_id=aHW16IlRwTPNctfSvoofuCarXfdJDvJK&state=dkRBSFJKemRsUm83aC9LSFBIWkFhZG8raWV1RCttcVlCZVM2ZTlOOFAybz06eyJ1IjowLCJ4IjoxNzcwNDA2NTUwLCJuIjoiOTFkY2QxZmEifQ%3D%3D&redirect_uri=https%3A%2F%2Fsecure.acuityscheduling.com%2Foauth2%2Fsquarespace-standalone%2Fcallback&access_type=offline#/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-black text-white px-6 py-3 text-[10px] tracking-[0.2em] font-bold uppercase mt-2 hover:opacity-80 transition-opacity block"
+                    >
                         Go to Account
-                    </button>
+                    </a>
                 </div>
                 <div className="mt-28 text-center">
                     <p className="text-[10px] text-black uppercase tracking-widest mb-1 font-bold">Powered by</p>

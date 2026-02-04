@@ -8,10 +8,10 @@ import { AnimatePresence, motion } from "framer-motion";
 
 export default function SocialGrid() {
     const images = [
-        "/daiga.webp",
-        "/ivana.webp",
-        "/tanya.webp",
-        "/daiga-ellaby-M2P08N9zi2k-unsplash.webp"
+        "/social4.jpg",
+        "/social3.jpg",
+        "/social1.jpg",
+        "/social2.jpg"
     ];
 
     const [selectedIndex, setSelectedIndex] = useState<number | null>(null);

@@ -12,7 +12,7 @@ export default function BlogHero() {
                         <ScrollReveal width="100%" className="h-full">
                             <div className="w-full h-full overflow-hidden rounded-t-full relative bg-gray-200">
                                 <Image
-                                    src="/books.webp"
+                                    src="/insightchurch.jpg"
                                     alt="Books and cozy setting"
                                     fill
                                     className="object-cover"
@@ -27,17 +27,17 @@ export default function BlogHero() {
                 <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left gap-8 z-10 md:-ml-12 lg:-ml-32 md:-mt-8 lg:-mt-12">
                     <ScrollReveal delay={0.2}>
                         <h1 className="text-6xl md:text-7xl lg:text-[7rem] font-serif text-lilac-green font-normal leading-tight">
-                            The Lilac Blog
+                            Insights
                         </h1>
                     </ScrollReveal>
 
                     <ScrollReveal delay={0.3}>
                         <div className="space-y-6 text-xl md:text-xl lg:text-2xl text-lilac-green font-normal leading-relaxed max-w-lg md:max-w-md lg:max-w-lg">
                             <p>
-                                My tiny corner of the internet where I talk about all things healing, heart, and wholeness.
+                                Thoughtful reflections on anxiety, trauma, burnout, and the process of healing.
                             </p>
                             <p className="font-bold">
-                                Glad you're here.
+                                This space is intended to offer perspective, practical understanding, and gentle guidance—not quick fixes.
                             </p>
                         </div>
                     </ScrollReveal>

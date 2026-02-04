@@ -36,7 +36,7 @@ export default function Navbar() {
                         ? pathname === "/connect"
                             ? "bg-lilac-lavender/90"
                             : pathname?.startsWith("/blog/")
-                                ? "bg-lilac-beige/90"
+                                ? "bg-[#E8E4D9]/90"
                                 : "bg-lilac-cream/90"
                         : ""
                     }`}
@@ -65,7 +65,7 @@ export default function Navbar() {
 
                     {/* Mobile: Logo Right | Desktop: Logo Left */}
                     <div className={`text-2xl md:text-3xl font-serif font-medium tracking-wider text-lilac-green z-50 relative order-2 md:order-1 ml-auto md:ml-0 ${mobileMenuOpen ? "opacity-0" : "opacity-100"} transition-opacity duration-300`}>
-                        Lilac Template
+                        Dr. Maya Reynolds, PsyD
                     </div>
 
                     {/* Desktop Menu */}

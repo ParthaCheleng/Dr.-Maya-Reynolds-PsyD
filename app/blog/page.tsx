@@ -6,7 +6,7 @@ import BlogGrid from "@/components/Blog/BlogGrid";
 import SubscribeSection from "@/components/Blog/SubscribeSection";
 
 export const metadata: Metadata = {
-    title: "Blog — Lilac Template",
+    title: "Blog — Dr. Maya Reynolds, PsyD",
     description: "Read our latest thoughts on healing and wholeness.",
 };
 

@@ -11,15 +11,15 @@ const config: Config = {
             colors: {
                 background: "var(--background)",
                 foreground: "var(--foreground)",
-                "lilac-cream": "#FAF7F2", // Background color
-                "lilac-green": "#1A3215", // Text and dark elements
-                "lilac-beige": "#E8E4D9", // Card backgrounds
-                "lilac-lavender": "#C8C4D1", // Lavender background (approx from image)
-                "lilac-olive": "#82824C", // Office section background
+                "lilac-cream": "#F6F4EF", // Background color
+                "lilac-green": "#2B2B2B", // Text and dark elements
+                "lilac-beige": "#E3E1DC", // Card backgrounds
+                "lilac-lavender": "#7A8CA3", // Lavender background (approx from image)
+                "lilac-olive": "#9AA0A6", // Office section background
             },
             fontFamily: {
-                serif: ["Outfit", "sans-serif"],
-                sans: ["Outfit", "sans-serif"],
+                serif: ["'Source Serif 4'", "serif"],
+                sans: ["Inter", "sans-serif"],
             },
         },
     },

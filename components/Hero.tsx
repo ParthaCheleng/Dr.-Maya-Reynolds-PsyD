@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import ScrollReveal from "./ScrollReveal";
 
 export default function Hero() {
@@ -9,7 +10,7 @@ export default function Hero() {
                 <ScrollReveal width="100%">
                     <div className="relative w-full max-w-[350px] aspect-[400/550] md:max-w-[500px] lg:max-w-none lg:w-[650px] lg:h-[850px] rounded-t-full overflow-hidden mx-auto lg:mx-0">
                         <Image
-                            src="/daiga-ellaby-M2P08N9zi2k-unsplash.webp"
+                            src="/intro.png"
                             alt="Hero Image"
                             fill
                             className="object-cover"
@@ -22,19 +23,19 @@ export default function Hero() {
             {/* Right Content */}
             <div className="w-full lg:w-1/2 flex flex-col items-center text-center space-y-8 md:space-y-10 self-center pb-8 lg:pb-0 lg:pr-8 lg:-mt-8 order-1 lg:order-2">
                 <ScrollReveal delay={0.2}>
-                    <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-bold text-lilac-green leading-tight tracking-normal">
-                        Live your life <br /> in full bloom
+                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-lilac-green leading-tight tracking-normal">
+                        A Steady Space to Feel <br /> More Like Yourself.
                     </h1>
                 </ScrollReveal>
                 <ScrollReveal delay={0.3}>
                     <p className="text-lilac-green font-sans text-base md:text-lg lg:text-lg tracking-normal font-medium max-w-xs md:max-w-md lg:max-w-none">
-                        Therapy for Adults in Minneapolis, MN.
+                        Therapy for anxiety, trauma, and burnout in Santa Monica, CA
                     </p>
                 </ScrollReveal>
                 <ScrollReveal delay={0.4}>
-                    <button className="border border-lilac-green font-bold px-10 py-4 text-xs md:text-sm tracking-[0.2em] uppercase hover:bg-lilac-green hover:text-lilac-cream transition-colors duration-300 font-medium">
-                        Connect with me &rarr;
-                    </button>
+                    <Link href="/connect" className="border border-lilac-green font-bold px-10 py-4 text-xs md:text-sm tracking-[0.2em] uppercase hover:bg-lilac-green hover:text-lilac-cream transition-colors duration-300 font-medium">
+                        Schedule a Consultation &rarr;
+                    </Link>
                 </ScrollReveal>
             </div>
         </section>

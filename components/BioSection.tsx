@@ -10,14 +10,20 @@ export default function BioSection() {
                 {/* LEFT TEXT */}
                 <div className="flex flex-col gap-6 max-w-xl mx-auto md:mx-0 items-start text-left order-2 md:order-1">
                     <ScrollReveal>
-                        <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-lilac-green leading-tight tracking-tight">
-                            Hi, I’m Lilac.
+                        <h2 className="text-3xl md:text-4xl lg:text-4xl font-serif font-medium text-lilac-green leading-tight tracking-tight">
+                            About Dr. Maya Reynolds, PsyD
                         </h2>
                     </ScrollReveal>
 
                     <ScrollReveal delay={0.2}>
                         <p className="text-lg md:text-xl text-lilac-green font-sans leading-[2] font-normal">
-                            I’m committed to providing a safe and supportive environment where we can explore your thoughts, feelings, and behaviors. With empathy and guidance, we’ll work together to navigate the challenges life throws your way.
+                            I’m a licensed clinical psychologist based in Santa Monica, California. I work with adults navigating anxiety, trauma, chronic stress, and professional burnout.
+                            <br />
+                            <br />
+                            Many of the people I support are thoughtful, capable, and driven—yet internally feel tense, disconnected, or constantly on edge. My approach to therapy is warm, collaborative, and grounded, with enough structure to feel supportive while allowing space for reflection and depth.
+                            <br />
+                            <br />
+                            I integrate evidence-based approaches such as cognitive-behavioral therapy (CBT), EMDR, mindfulness-based practices, and body-oriented techniques to address both the emotional and physiological aspects of stress and trauma.
                         </p>
                     </ScrollReveal>
 
@@ -34,8 +40,8 @@ export default function BioSection() {
                         {/* Arch image */}
                         <div className="relative w-full max-w-[350px] aspect-[450/650] md:max-w-[400px] lg:max-w-none md:w-[450px] lg:w-[550px] md:h-[600px] lg:h-[750px] rounded-t-full overflow-hidden bg-gray-300 z-10">
                             <Image
-                                src="/daiga.webp"
-                                alt="Bio Image"
+                                src="/Dr. Maya Reynolds.png"
+                                alt="Dr. Maya Reynolds"
                                 fill
                                 className="object-cover"
                             />

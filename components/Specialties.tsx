@@ -4,21 +4,21 @@ import ScrollReveal from "./ScrollReveal";
 export default function Specialties() {
     const specialties = [
         {
-            title: "Self-Esteem",
-            description: "Building a strong sense of self-worth is key to living a fulfilled life. Let's work together to bolster your self-esteem.",
+            title: "Anxiety & Chronic Stress",
+            description: "Support for persistent worry, overthinking, panic symptoms, sleep difficulties, and the physical tension that often accompanies anxiety.",
             image: "/miles.webp",
             pos: "15% 50%",
         },
         {
-            title: "Relationships",
-            description: "Navigating relationships can be complex. I'm here to guide you through these complexities to help you form healthier connections.",
-            image: "/ori.webp",
-            pos: "50% 100%",
+            title: "Trauma & Recovery",
+            description: "Trauma-informed therapy for adults impacted by single-incident trauma or long-standing patterns rooted in earlier life experiences, relationships, or chronic stress.",
+            image: "/recovery.jpg",
+            pos: "80% 25%",
         },
         {
-            title: "Burnout",
-            description: "Feeling overwhelmed by your career is more common than you think. Together, we'll identify strategies to manage and prevent burnout.",
-            image: "/ivana.webp",
+            title: "Burnout & High-Pressure Careers",
+            description: "Support for professionals, entrepreneurs, and creatives experiencing emotional exhaustion, perfectionism, and disconnection after years of pushing through stress.",
+            image: "/burnout.jpg",
             pos: "center",
         },
     ];

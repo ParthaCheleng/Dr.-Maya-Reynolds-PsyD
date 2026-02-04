@@ -5,8 +5,8 @@ import "./globals.css";
 // Satoshi is imported in globals.css
 
 export const metadata: Metadata = {
-    title: "Lilac Template",
-    description: "Therapy website template clone",
+    title: "Dr. Maya Reynolds, PsyD",
+    description: "Therapy for Anxiety, Trauma, and Burnout in Santa Monica, CA",
     icons: {
         icon: "/icon.svg",
     },

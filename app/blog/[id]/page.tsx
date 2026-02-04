@@ -17,11 +17,11 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
     const post = blogPosts.find((p) => p.id === id);
     if (!post) {
         return {
-            title: "Post Not Found — Lilac Template",
+            title: "Post Not Found — Dr. Maya Reynolds, PsyD",
         };
     }
     return {
-        title: `${post.title} — Lilac Template`,
+        title: `${post.title} — Dr. Maya Reynolds, PsyD`,
     };
 }
 
@@ -76,7 +76,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
                             <ScrollReveal delay={0.6}>
                                 <Link href={`/blog/${prevPost.id}`} className="inline-flex items-center gap-4 hover:opacity-70 transition-opacity group">
                                     <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 md:w-8 md:h-8 transform group-hover:-translate-x-1 transition-transform duration-300"><path d="M15 19L8 12L15 5" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" /></svg>
-                                    <span className="text-3xl md:text-4xl font-serif">{prevPost.title}</span>
+                                    <span className="text-3xl md:text-4xl font-serif">Previous Post</span>
                                 </Link>
                             </ScrollReveal>
                         )}
@@ -85,7 +85,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
                         {nextPost && (
                             <ScrollReveal delay={0.6}>
                                 <Link href={`/blog/${nextPost.id}`} className="inline-flex items-center gap-4 hover:opacity-70 transition-opacity group">
-                                    <span className="text-3xl md:text-4xl font-serif">{nextPost.title}</span>
+                                    <span className="text-3xl md:text-4xl font-serif">Next Post</span>
                                     <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 md:w-8 md:h-8 transform group-hover:translate-x-1 transition-transform duration-300"><path d="M9 5L16 12L9 19" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" /></svg>
                                 </Link>
                             </ScrollReveal>

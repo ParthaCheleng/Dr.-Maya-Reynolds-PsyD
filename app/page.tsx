@@ -4,6 +4,7 @@ import IntroSection from "@/components/IntroSection";
 import Specialties from "@/components/Specialties";
 import SymptomsSection from "@/components/SymptomsSection";
 import BioSection from "@/components/BioSection";
+import OfficeSection from "@/components/OfficeSection";
 import BGSection from "@/components/BackgroundSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
@@ -18,6 +19,7 @@ export default function Home() {
             <Specialties />
             <SymptomsSection />
             <BioSection />
+            <OfficeSection />
             <FAQSection />
             <BGSection />
             <CTASection />

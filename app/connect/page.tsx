@@ -7,7 +7,7 @@ import SocialGrid from "@/components/Connect/SocialGrid";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Appointments — Lilac template",
+    title: "Appointments — Dr. Maya Reynolds, PsyD",
 };
 
 export default function ConnectPage() {

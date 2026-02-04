@@ -4,11 +4,11 @@ import ScrollReveal from "./ScrollReveal";
 
 export default function SymptomsSection() {
     const symptoms = [
-        "Persistent feelings of sadness or hopelessness",
-        "Trouble focusing or making decisions",
-        "Difficulty maintaining relationships",
-        "Feeling constantly exhausted or unmotivated",
-        "A pervasive sense of being overwhelmed",
+        "Constant mental or physical tension",
+        "Feeling overwhelmed despite functioning well day-to-day",
+        "Emotional exhaustion or burnout",
+        "Difficulty resting, sleeping, or feeling present",
+        "A sense of disconnection or ongoing internal pressure",
     ];
 
     return (
@@ -17,7 +17,7 @@ export default function SymptomsSection() {
             <div className="w-full md:w-1/2 min-h-[400px] md:min-h-[600px] bg-gray-300 relative order-1 md:order-1">
                 <ScrollReveal width="100%" className="h-full">
                     <Image
-                        src="/valeriia.webp"
+                        src="/support.jpg"
                         alt="Symptoms Image"
                         fill
                         className="object-cover"
@@ -29,14 +29,14 @@ export default function SymptomsSection() {
             <div className="w-full md:w-1/2 bg-lilac-lavender flex flex-col justify-between relative min-h-[500px] md:min-h-[600px] order-2 md:order-2">
                 <div className="px-6 md:px-32 py-12 min-[400px]:py-20 md:py-24 flex flex-col justify-center gap-10">
                     <ScrollReveal>
-                        <h2 className="text-3xl min-[400px]:text-4xl md:text-5xl font-serif font-medium text-lilac-green leading-tight tracking-tight">
-                            You don’t have to do this all <span className="italic">alone</span>.
+                        <h2 className="text-3xl min-[400px]:text-4xl md:text-4xl font-serif font-medium text-lilac-green leading-tight tracking-tight">
+                            You don’t have to carry this<span className="italic"> on your own</span>.
                         </h2>
                     </ScrollReveal>
 
                     <ScrollReveal delay={0.2}>
                         <p className="text-base md:text-lg font-sans text-lilac-green font-normal">
-                            If you are facing any of these, there’s hope:
+                            When stress and anxiety begin to feel unmanageable.
                         </p>
                     </ScrollReveal>
 
@@ -53,7 +53,7 @@ export default function SymptomsSection() {
 
                     <ScrollReveal delay={0.6}>
                         <p className="text-base md:text-lg leading-relaxed text-lilac-green font-sans mt-0 font-normal">
-                            With empathy and guidance, we'll work together to navigate the challenges life throws your way.
+                            Support is available, and change doesn’t have to happen all at once.
                         </p>
                     </ScrollReveal>
                 </div>

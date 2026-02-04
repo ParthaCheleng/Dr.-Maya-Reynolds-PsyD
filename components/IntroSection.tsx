@@ -12,18 +12,21 @@ export default function IntroSection() {
                 <div className="px-8 md:px-12 lg:px-32 py-20 md:py-24 lg:py-48 flex flex-col justify-center gap-10">
                     <ScrollReveal>
                         <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-medium text-lilac-green leading-tight tracking-tight">
-                            Live a fulfilling life.
+                            A place to slow down and reconnect.
                         </h2>
                     </ScrollReveal>
                     <div className="space-y-6">
                         <ScrollReveal delay={0.2}>
                             <p className="text-base md:text-lg leading-relaxed text-lilac-green font-sans">
-                                Life can be challenging—especially when you’re trying to balance your personal and professional life.
+                                I’m Dr. Maya Reynolds, a licensed clinical psychologist based in Santa Monica, California.
                             </p>
                         </ScrollReveal>
                         <ScrollReveal delay={0.3}>
                             <p className="text-base md:text-lg leading-relaxed text-lilac-green font-sans">
-                                It’s easy to feel like you’re alone in facing these challenges, but I want you to know that I’m here to help.
+                                I work with adults navigating anxiety, trauma, and burnout—particularly those who appear capable and high-functioning on the outside while feeling overwhelmed, tense, or disconnected internally.
+                                <br />
+                                <br />
+                                Therapy can be a space to pause, understand what’s happening beneath the surface, and begin developing more sustainable ways of coping and living.
                             </p>
                         </ScrollReveal>
                     </div>
@@ -39,7 +42,7 @@ export default function IntroSection() {
             <div className="w-full md:w-1/2 min-h-[400px] md:min-h-[800px] bg-gray-200 relative">
                 <ScrollReveal width="100%" className="h-full">
                     <Image
-                        src="/tanya.webp"
+                        src="/home.jpg"
                         alt="Intro Section Image"
                         fill
                         className="object-cover"
