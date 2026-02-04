@@ -6,19 +6,13 @@ import L from "leaflet";
 import { useEffect } from "react";
 
 // Fix for default marker icon in Next.js
-const icon = L.icon({
-    iconUrl: "/marker-icon.png",
-    shadowUrl: "/marker-shadow.png",
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-});
 // Since we might not have these assets locally, let's use CDN for marker icons or just rely on Leaflet defaults and fix the import issue.
 // A common fix is deleting the _getIconUrl property from L.Icon.Default.prototype.
 
 export default function LeafletMap() {
     useEffect(() => {
         // Fix Leaflet's default icon path issues in webpack/Next.js
-        // @ts-ignore
+        // @ts-expect-error Leaflet prototype fix
         delete L.Icon.Default.prototype._getIconUrl;
         L.Icon.Default.mergeOptions({
             iconRetinaUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png',

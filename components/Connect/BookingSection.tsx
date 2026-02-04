@@ -23,7 +23,7 @@ export default function BookingSection() {
                 <div className="w-full max-w-[500px] bg-white px-5 py-10 shadow-lg border border-gray-100 flex flex-col items-center justify-center gap-4 min-h-[300px]">
                     <h3 className="text-lg md:text-xl font-bold text-black tracking-tight">This page is not active</h3>
                     <p className="text-xs md:text-sm text-gray-500 max-w-xs text-center leading-relaxed">
-                        If you're the owner, please log into your account to start a free trial or subscribe.
+                        If you&apos;re the owner, please log into your account to start a free trial or subscribe.
                     </p>
                     <a
                         href="https://login.squarespace.com/api/1/login/oauth/provider/authorize?client_id=aHW16IlRwTPNctfSvoofuCarXfdJDvJK&state=dkRBSFJKemRsUm83aC9LSFBIWkFhZG8raWV1RCttcVlCZVM2ZTlOOFAybz06eyJ1IjowLCJ4IjoxNzcwNDA2NTUwLCJuIjoiOTFkY2QxZmEifQ%3D%3D&redirect_uri=https%3A%2F%2Fsecure.acuityscheduling.com%2Foauth2%2Fsquarespace-standalone%2Fcallback&access_type=offline#/"
