@@ -35,7 +35,7 @@ export default function FAQSection() {
                 {/* Left Image Arch */}
                 <div className="w-full md:w-1/2 flex justify-center md:justify-start relative">
                     <ScrollReveal width="100%">
-                        <div className="relative w-[400px] h-[550px] md:w-[650px] md:h-[850px] rounded-t-full overflow-hidden">
+                        <div className="relative w-full max-w-[400px] h-[550px] md:max-w-[650px] md:w-[650px] md:h-[850px] rounded-t-full overflow-hidden">
                             <Image
                                 src="/faq.jpg"
                                 alt="FAQ Image"
